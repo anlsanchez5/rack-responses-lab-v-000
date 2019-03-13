@@ -11,6 +11,6 @@ class Application
     else
       resp.write "Good Afternoon!"
     end
-    rep.finish
+    resp.finish
   end
 end
