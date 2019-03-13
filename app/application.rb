@@ -3,7 +3,7 @@ class Application
     resp = Rack::Response.new
 
     time = Time.now
-  binding.pry
+  
     resp.write "#{time}"
 
     if time <= 12
